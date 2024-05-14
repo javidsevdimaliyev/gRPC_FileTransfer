@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "0yUCePg8HfpiZGwinfKdWRlCZAIXEWc0iv8mJcMmoJg=",
+  "Source": "gRPC_FileServer",
+  "BasePath": "_content/gRPC_FileServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "gRPC_FileServer\\wwwroot",
+      "Source": "gRPC_FileServer",
+      "ContentRoot": "C:\\Users\\cavids\\Desktop\\Developing\\5 Implementations of Technologies\\gRPC (Remote Procedure Calls)\\gRPC_FileServer\\gRPC_FileServer\\wwwroot\\",
+      "BasePath": "_content/gRPC_FileServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

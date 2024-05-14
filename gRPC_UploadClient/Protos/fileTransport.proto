@@ -1,0 +1,18 @@
+﻿syntax = "proto3";
+option csharp_namespace = "gRPCFileTransferClient";
+package file;
+import "google/protobuf/empty.proto"; //Using for methods with no return value.
+service FileService {
+    rpc FileDownLoad (FileInfo) returns (stream BytesContent);
+    rpc FileUpLoad (stream BytesContent) returns(google.protobuf.Empty); //It returns Empty, so it can be considered as no return value.
+}
+message FileInfo{
+    string fileName = 1;
+    string fileExtension = 2;
+}
+message BytesContent{
+    int64 fileSize = 1;
+    bytes buffer = 2;
+    int32 readedByte = 3;
+    FileInfo info = 4;
+}

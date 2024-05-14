@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cavids\\Desktop\\Developing\\5 Implementations of Technologies\\gRPC (Remote Procedure Calls)\\gRPC_FileServer\\gRPC_FileServer\\gRPC_FileServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cavids\\Desktop\\Developing\\5 Implementations of Technologies\\gRPC (Remote Procedure Calls)\\gRPC_FileServer\\gRPC_FileServer\\gRPC_FileServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cavids\\Desktop\\Developing\\5 Implementations of Technologies\\gRPC (Remote Procedure Calls)\\gRPC_FileServer\\gRPC_FileServer\\gRPC_FileServer.csproj",
+        "projectName": "gRPC_FileServer",
+        "projectPath": "C:\\Users\\cavids\\Desktop\\Developing\\5 Implementations of Technologies\\gRPC (Remote Procedure Calls)\\gRPC_FileServer\\gRPC_FileServer\\gRPC_FileServer.csproj",
+        "packagesPath": "C:\\Users\\cavids\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cavids\\Desktop\\Developing\\5 Implementations of Technologies\\gRPC (Remote Procedure Calls)\\gRPC_FileServer\\gRPC_FileServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cavids\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.57.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
